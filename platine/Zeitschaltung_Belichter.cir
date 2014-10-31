@@ -1,0 +1,55 @@
+* EESchema Netlist Version 1.1 (Spice format) creation date: So 26 Aug 2012 14:35:47 CEST
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+*Sheet Name:/
+D2  16 TVS		
+C1  14 0 3300uF		
+C10  19 0 3300uF		
+C8  19 0 3300uF		
+C6  19 0 3300uF		
+P5  0 26 CONN_2		
+R8  23 19 240		
+XU3  24 0 26 23 LTV_356T		
+R5  25 24 100		
+XIC1  28 44 0 4 0 4 13 27 43 42 40 33 22 25 10 11 47 4 7 12 0 31 37 50 49 48 46 45 9 41 39 38 ATMEGA168PA-A		
+D9  20 19 DIODESCH		
+P6  21 35 CONN_2		
+D8  0 34 ZENER		
+R7  34 0 R		
+Q1  20 34 0 IRLR_024N		
+R6  19 29 R		
+R4  22 30 100		
+XU2  30 0 34 29 LTV_356T		
+XU4  21 36 35 20 19 FINDER40.61		
+R2  0 PHOTO_RESISTOR		
+R3  32 0 300		
+D7  33 32 LED		
+C4  8 0 100nF		
+R1  4 7 R		
+P3  11 4 47 10 9 0 CONN_3X2		
+P4  0 4 37 50 49 48 46 45 2 1 CONN_5X2		
+VR1  15 18 VR		
+F2  6 16 1A slow		
+F1  5 15 1A fast		
+C11  4 0 100nF		
+C9  4 0 100nF		
+C7  4 0 100nF		
+C3  4 0 10uF		
+C2  14 0 10uF		
+D1  19 14 DIODESCH		
+XU1  0 14 4 7805		
+P1  18 5 CONN_2		
+D6  17 19 DIODESCH		
+D5  0 17 DIODESCH		
+D3  0 16 DIODESCH		
+D4  16 19 DIODESCH		
+T1  15 18 17 6 TRANSFO		
+P2  0 4 41 39 38 28 44 43 42 40 CONN_5X2		
+C13  0 27 12pF		
+C12  0 13 12pF		
+X1  13 27 16MHz		
+C5  0 12 1uF		
+
+.end

@@ -1,0 +1,405 @@
+# EESchema Netlist Version 1.1 created  Do 30 Aug 2012 22:21:15 CEST
+(
+ ( /5038E9F6 C75/160 C1 3300uF
+  ( 1 N-000034 )
+  ( 2 GND )
+ )
+ ( /502CEAF9 SM1206 C2 10uF
+  ( 1 N-000034 )
+  ( 2 GND )
+ )
+ ( /502CEB18 SM0805 C3 10uF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /5037E987 SM0603_Capa C4 100nF
+  ( 1 N-000016 )
+  ( 2 GND )
+ )
+ ( /502CD6D9 SM0805 C5 1uF
+  ( 1 GND )
+  ( 2 N-000030 )
+ )
+ ( /5038E85F C75/160 C6 3300uF
+  ( 1 +12V )
+  ( 2 GND )
+ )
+ ( /502CF168 SM0603_Capa C7 100nF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /5038E9E7 C75/160 C8 3300uF
+  ( 1 +12V )
+  ( 2 GND )
+ )
+ ( /502CF17F SM0603_Capa C9 100nF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /5038E9EC C75/160 C10 3300uF
+  ( 1 +12V )
+  ( 2 GND )
+ )
+ ( /502CF189 SM0603_Capa C11 100nF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /502CD73B SM0603_Capa C12 12pF
+  ( 1 GND )
+  ( 2 N-000031 )
+ )
+ ( /502CD73E SM0603_Capa C13 12pF
+  ( 1 GND )
+  ( 2 N-000039 )
+ )
+ ( /502CEAC4 D5 D1 DIODESCH
+  ( 1 +12V )
+  ( 2 N-000034 )
+ )
+ ( /50392547 D5 D2 TVS
+  ( 1 N-000033 )
+  ( 2 N-000029 )
+ )
+ ( /502CE8DA D5 D3 DIODESCH
+  ( 1 GND )
+  ( 2 N-000029 )
+ )
+ ( /502CE8D5 D5 D4 DIODESCH
+  ( 1 N-000029 )
+  ( 2 +12V )
+ )
+ ( /502CE8E6 D5 D5 DIODESCH
+  ( 1 GND )
+  ( 2 N-000033 )
+ )
+ ( /502CE9A4 D5 D6 DIODESCH
+  ( 1 N-000033 )
+  ( 2 +12V )
+ )
+ ( /5037EAF8 LED-0603 D7 LED
+  ( 1 N-000019 )
+  ( 2 N-000018 )
+ )
+ ( /5037F930 SOT23_Zener D8 ZENER
+  ( 1 GND )
+  ( 2 N-000043 )
+ )
+ ( /5038DFDC SM2010 D9 DIODESCH
+  ( 1 N-000036 )
+  ( 2 +12V )
+ )
+ ( /502CFB9D fuse_holder_Schurther F1 1A_fast
+  ( 1 N-000011 )
+  ( 2 N-000013 )
+ )
+ ( /502CFC21 fuse_holder_Schurther F2 1A_slow
+  ( 1 N-000012 )
+  ( 2 N-000029 )
+ )
+ ( /502CD54C TQFP32 IC1 ATMEGA168PA-A
+  ( 1 PD3 )
+  ( 2 PD4 )
+  ( 3 GND )
+  ( 4 VCC )
+  ( 5 GND )
+  ( 6 VCC )
+  ( 7 N-000031 )
+  ( 8 N-000039 )
+  ( 9 PD5 )
+  ( 10 PD6 )
+  ( 11 PD7 )
+  ( 12 N-000019 )
+  ( 13 N-000038 )
+  ( 14 N-000035 )
+  ( 15 MOSI )
+  ( 16 MISO )
+  ( 17 SCK )
+  ( 18 VCC )
+  ( 19 N-000016 )
+  ( 20 N-000030 )
+  ( 21 GND )
+  ( 22 ? )
+  ( 23 PC0 )
+  ( 24 PC1 )
+  ( 25 PC2 )
+  ( 26 PC3 )
+  ( 27 PC4 )
+  ( 28 PC5 )
+  ( 29 RESET )
+  ( 30 PD0 )
+  ( 31 PD1 )
+  ( 32 PD2 )
+ )
+ ( /502CEA0C conductor_terminal_2 P1 CONN_2
+  ( 1 N-000040 )
+  ( 2 N-000011 )
+ )
+ ( /502CD86F PIN_ARRAY_5x2 P2 CONN_5X2
+  ( 1 GND )
+  ( 2 VCC )
+  ( 3 PD0 )
+  ( 4 PD1 )
+  ( 5 PD2 )
+  ( 6 PD3 )
+  ( 7 PD4 )
+  ( 8 PD5 )
+  ( 9 PD6 )
+  ( 10 PD7 )
+ )
+ ( /5037E561 pin_array_3x2 P3 CONN_3X2
+  ( 1 MISO )
+  ( 2 VCC )
+  ( 3 SCK )
+  ( 4 MOSI )
+  ( 5 RESET )
+  ( 6 GND )
+ )
+ ( /502CFF0C PIN_ARRAY_5x2 P4 CONN_5X2
+  ( 1 GND )
+  ( 2 VCC )
+  ( 3 PC0 )
+  ( 4 PC1 )
+  ( 5 PC2 )
+  ( 6 PC3 )
+  ( 7 PC4 )
+  ( 8 PC5 )
+  ( 9 ? )
+  ( 10 ? )
+ )
+ ( /5038E112 PIN_ARRAY_2X1 P5 CONN_2
+  ( 1 GND )
+  ( 2 N-000041 )
+ )
+ ( /5037F999 conductor_terminal_2 P6 CONN_2
+  ( 1 N-000037 )
+  ( 2 N-000044 )
+ )
+ ( /5037F8F2 DPAKGDS Q1 IRLR_024N
+  ( D N-000036 )
+  ( G N-000043 )
+  ( S GND )
+ )
+ ( /5037E909 SM0805 R1 R
+  ( 1 VCC )
+  ( 2 N-000016 )
+ )
+ ( /5037F210 PIN_ARRAY_2X1 R2 PHOTO_RESISTOR
+  ( 1 GND )
+  ( 2 N-000016 )
+ )
+ ( /5037EB07 SM0805 R3 300
+  ( 1 N-000018 )
+  ( 2 GND )
+ )
+ ( /5037F752 SM0805 R4 100
+  ( 1 N-000038 )
+  ( 2 N-000046 )
+ )
+ ( /5038E0A3 SM0805 R5 100
+  ( 1 N-000035 )
+  ( 2 N-000048 )
+ )
+ ( /5037F8D2 SM0805 R6 R
+  ( 1 +12V )
+  ( 2 N-000042 )
+ )
+ ( /5037F91D SM0805 R7 R
+  ( 1 N-000043 )
+  ( 2 GND )
+ )
+ ( /5038E105 SM0805 R8 240
+  ( 1 N-000047 )
+  ( 2 +12V )
+ )
+ ( /502CEA8D TO220_GND-VO-VI U1 7805
+  ( GND GND )
+  ( VI N-000034 )
+  ( VO VCC )
+ )
+ ( /5037F6E9 SO-4 U2 LTV_356T
+  ( 1 N-000046 )
+  ( 2 GND )
+  ( 3 N-000043 )
+  ( 4 N-000042 )
+ )
+ ( /5038E0A6 SO-4 U3 LTV_356T
+  ( 1 N-000048 )
+  ( 2 GND )
+  ( 3 N-000041 )
+  ( 4 N-000047 )
+ )
+ ( /5037F6B7 Finder40.61 U4 FINDER40.61
+  ( 11 N-000037 )
+  ( 12 ? )
+  ( 14 N-000044 )
+  ( A1 N-000036 )
+  ( A2 +12V )
+ )
+ ( /503A962D BLOCK_VC10/1 VC10/1/12 TRANSFO
+  ( 1.1 N-000013 )
+  ( 1.2 N-000040 )
+  ( 2.1 N-000012 )
+  ( 2.2 N-000033 )
+ )
+ ( /502CFCBE D4 VR1 VR
+  ( 1 N-000013 )
+  ( 2 N-000040 )
+ )
+ ( /503A6C66 CRYSTAL_MT X1 16MHz
+  ( 1 N-000031 )
+  ( 2 N-000039 )
+  ( GND GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ CP*
+ SM*
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ CP*
+ SM*
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ CP*
+ SM*
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ CP*
+ SM*
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component C13
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component D3
+ D?
+ S*
+$endlist
+$component D4
+ D?
+ S*
+$endlist
+$component D5
+ D?
+ S*
+$endlist
+$component D6
+ D?
+ S*
+$endlist
+$component D7
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D8
+ D?
+ SO*
+ SM*
+$endlist
+$component D9
+ D?
+ S*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
