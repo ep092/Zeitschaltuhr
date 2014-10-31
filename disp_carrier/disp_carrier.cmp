@@ -1,0 +1,122 @@
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = So 02 Sep 2012 13:43:44 CEST
+
+BeginCmp
+TimeStamp = /50433DA3;
+Reference = C1;
+ValeurCmp = 1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50434168;
+Reference = C2;
+ValeurCmp = 1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5043416B;
+Reference = C3;
+ValeurCmp = 1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50433308;
+Reference = P1;
+ValeurCmp = DISP;
+IdModule  = PIN_ARRAY_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /50433CD9;
+Reference = P2;
+ValeurCmp = BUTTONS;
+IdModule  = PIN_ARRAY_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /50433E92;
+Reference = R1;
+ValeurCmp = 2k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5043417F;
+Reference = R2;
+ValeurCmp = 2k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50434181;
+Reference = R3;
+ValeurCmp = 2k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50433E7B;
+Reference = R4;
+ValeurCmp = 10k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50434172;
+Reference = R5;
+ValeurCmp = 10k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50434176;
+Reference = R6;
+ValeurCmp = 10k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50433C95;
+Reference = R7;
+ValeurCmp = 330;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50433C81;
+Reference = R8;
+ValeurCmp = 10;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /504332EF;
+Reference = S1;
+ValeurCmp = DISPLAY_BL;
+IdModule  = TC1602A;
+EndCmp
+
+BeginCmp
+TimeStamp = /50433D52;
+Reference = SW1;
+ValeurCmp = SPST;
+IdModule  = Button_SMD_Schurter_LSG;
+EndCmp
+
+BeginCmp
+TimeStamp = /50434047;
+Reference = SW2;
+ValeurCmp = SPST;
+IdModule  = Button_SMD_Schurter_LSG;
+EndCmp
+
+BeginCmp
+TimeStamp = /50434071;
+Reference = SW3;
+ValeurCmp = SPST;
+IdModule  = Button_SMD_Schurter_LSG;
+EndCmp
+
+EndListe
